@@ -46,9 +46,8 @@ for root, dirs, files in walk('consolidate_finder'):
         odd_df.to_excel('odd.xls')
 
         # 彙整 Excel 
-        df_concat = df_empty.append(shift_df, ignore_index=True)
-        # print(df_concat)
-        df_concat.to_excel('test_update.xls')
+        df_append = df_empty.append(odd_df, ignore_index=True)
+        df_append.to_excel('df_append.xls')
 
 # df_empty.rename(columns={'保卡號碼': '保單編號/保卡號碼'}, inplace=True)
 # print(df_empty)
