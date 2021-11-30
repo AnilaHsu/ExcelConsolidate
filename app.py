@@ -29,7 +29,7 @@ for root, dirs, files in walk('consolidate_finder'):
         
         # 合併新的經銷商至目前的 DF
         shift_df = concat([dealer_df,need_df],axis=1)
-
+        shift_df.to_excel('concat.xls')
         # print(shift_df.columns)
         # print(df_empty)
         
