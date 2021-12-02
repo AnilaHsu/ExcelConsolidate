@@ -69,7 +69,7 @@ def clean_unnecessary_data(df_append,ROOT_DIR):
     # df_distinct.to_excel('df_distinct.xls')
     df = df_distinct[~df_distinct['經銷商'].isin(['經銷商總計'])]
     # print(df)
-    df.to_excel(os.path.join(ROOT_DIR, 'df.xls'))
+    df.to_excel(os.path.join(ROOT_DIR, 'Completed.xls'))
 
     print("Successed :)")
 
