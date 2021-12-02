@@ -52,7 +52,7 @@ def grab_and_concat_files():
             df_append = df_append.append(odd_df, ignore_index=True)
             # df_append.to_excel('df.xls')
             # print(df_append)
-            return df_append,ROOT_DIR
+        return df_append,ROOT_DIR
 
 
 # 嘗試先彙整再清理
