@@ -1,4 +1,9 @@
-# Excel_Consolidate_macOS
+# Excel_Consolidate
+
+## environment
+Python 3.9.5
+M1 maOS(ARM)
+Microsoft Windows10 (x64)
 
 ## Introduction
 Concat Excel files, merging and clean fields as needed, and retain necessary data.
@@ -28,3 +33,7 @@ pyinstaller -F ./hello.py
 # windows
 pyinstaller -F .\hello.py
 ```
+
+### As a side note
+If use a computer with Windows 7 version, you need to recompile the program in Python 3.8.6 version, 
+otherwise may encounter the "api-ms-win-core-path-l1-1-0.dll" error message.
