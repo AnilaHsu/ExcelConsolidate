@@ -1,9 +1,8 @@
 # Excel_Consolidate
 
 ## environment
-Python 3.9.5
-M1 maOS(ARM)
-Microsoft Windows10 (x64)
+- Python 3.9.5
+- M1 maOS(ARM)/ Microsoft Windows10 (x64)
 
 ## Introduction
 Concat Excel files, merging and clean fields as needed, and retain necessary data.
