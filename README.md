@@ -1,4 +1,6 @@
 # Excel_Consolidate
+It's an automated program designed for the company's auto insurance division to help them with repetitive and time-consuming data extraction and management tasks.
+By automating the program, they can save a week of raw data processing time per month.
 
 ## environment
 - Python 3.9.5
